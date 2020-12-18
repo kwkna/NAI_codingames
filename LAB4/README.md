@@ -1,4 +1,4 @@
-## Exercise 3 - Hotel rating - fuzzy logic
+## Exercise 4 - Movie Recommender - Collaborative filtering (user-based)
 * [Code](https://github.com/kwkna/NAI_codingames/blob/master/LAB4/main.py)
 * [Screens from the game](https://github.com/kwkna/NAI_codingames/blob/master/LAB4/screens)
 * Preparation Instruction without requirements.txt:
