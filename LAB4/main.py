@@ -7,7 +7,7 @@ from LAB4.moviesRecomender import MovieRecommender
 
 mr = MovieRecommender()
 mr.clean_data()
-
 print('6 recommended movies:', mr.get_6_recommended_movies('user1'))
+print('6 not recommended movies', mr.get_6_not_recommended_movies('user1'))
 # print(mr.get_recommended_movies('user1'))
 
