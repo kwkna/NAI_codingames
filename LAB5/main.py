@@ -13,9 +13,9 @@ dataset.columns = ["No times pregnant", "Plasma glucose",
 # df = pd.DataFrame(dataset, columns=dataset.columns)
 # print(df.head())
 
-df0 = dataset[dataset.Class == 0]
+# df0 = dataset[dataset.Class == 0]
 # print(df0)
-df1 = dataset[dataset.Class == 1]
+# df1 = dataset[dataset.Class == 1]
 # print(df1)
 # plt.scatter(df0['No times pregnant'], df0['BMI'], color='blue', marker='*')
 # plt.scatter(df1['No times pregnant'], df1['BMI'], color='green', marker='+')
