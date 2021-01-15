@@ -27,7 +27,10 @@ Y = dataset.Class
 # print(Y)
 
 X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2)
-
+print(X_train)
+print(Y_train)
+print(X_test)
+print(Y_test)
 model = SVC()
-model_fit = model.fit(X_train, Y_train)
+model.fit(X_train, Y_train)
 print(model.score(X_test, Y_test))
