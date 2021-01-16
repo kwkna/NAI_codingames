@@ -1,6 +1,6 @@
 ## Exercise 5 - SVC classifier
 * [Code](https://github.com/kwkna/NAI_codingames/blob/master/LAB5/main.py)
-* [Screens from the game](https://github.com/kwkna/NAI_codingames/blob/master/LAB5/screens)
+* [Screens](https://github.com/kwkna/NAI_codingames/blob/master/LAB5/screens)
 * Preparation Instruction without requirements.txt:
     * Install pip:
     ```
@@ -17,4 +17,4 @@
  * Preparation Instruction with requirements.txt:
     ```
     pip install -r requirements.txt
-    ```****
+    ```
