@@ -1,36 +1,12 @@
-import pandas as pd
-from matplotlib import pyplot as plt
-from sklearn import svm, metrics
-from sklearn.model_selection import train_test_split
-from sklearn.svm import SVC
+from LAB5.AdultExample import AdultExample
+from LAB5.PimaIndiansExample import PimaIndiansExample
 
-dataset = pd.read_csv('indian-dataset.txt', sep=",", header=None)
-dataset.columns = ["No times pregnant", "Plasma glucose",
-                   "blood pressure", "skinfold thickness", "2-Hour serum insulin",
-                   "BMI", "Diabetes pedigree function", "Age", "Class"]
-# print(dataset.head())
-# print(dataset.describe())
-# df = pd.DataFrame(dataset, columns=dataset.columns)
-# print(df.head())
 
-# df0 = dataset[dataset.Class == 0]
-# print(df0)
-# df1 = dataset[dataset.Class == 1]
-# print(df1)
-# plt.scatter(df0['No times pregnant'], df0['BMI'], color='blue', marker='*')
-# plt.scatter(df1['No times pregnant'], df1['BMI'], color='green', marker='+')
-# plt.show()
+if __name__ == '__main__':
+    print("------------------------Prima Indians example------------------------")
+    primaIndians = PimaIndiansExample()
+    primaIndians.run()
 
-X = dataset.drop('Class', axis='columns')
-# print(X)
-Y = dataset.Class
-# print(Y)
-
-X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size=0.2)
-print(X_train)
-print(Y_train)
-print(X_test)
-print(Y_test)
-model = SVC()
-model.fit(X_train, Y_train)
-print(model.score(X_test, Y_test))
+    print("----------------------------Adult example----------------------------")
+    adult = AdultExample()
+    adult.run()
