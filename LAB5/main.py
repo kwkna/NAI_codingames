@@ -1,3 +1,6 @@
+# Authors: Paweł Zborowski, Jakub Wirkus
+# Problem: Train 2 models on 2 classification data sets
+
 from LAB5.AdultExample import AdultExample
 from LAB5.PimaIndiansExample import PimaIndiansExample
 
